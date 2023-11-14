@@ -93,9 +93,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: ${{ secrets.AZURE_APP_SERVICE_NAME }}
-          echo toto
-          echo ${{ secrets.AZURE_APP_SERVICE_NAME }}
-          echo fin toto
           package: ${{ github.workspace }}/Nextjs-site.zip
 
       - name: 🧹 Cleanup
