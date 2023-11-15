@@ -12,12 +12,12 @@ export const StartNewChat: FC<Prop> = (props) => {
       <div className="col-span-2 gap-5 flex flex-col flex-1">
         <img src="/ai-icon.png" className="w-36" />
       </div>
-      <Card className="col-span-3 flex flex-col gap-5 p-5 ">
+      <Card className="flex flex-col gap-5 p-5 ">
         <Typography variant="h4" className="text-primary">
           {AI_NAME}
         </Typography>
         <div className="flex flex-col gap-2">
-          <p className="overflow-auto">
+          <p className="">
             Welcome to {AI_NAME}. <br />
             En utilisant ChatGPT MH, veuillez prendre en compte les points suivants :<br />
 
