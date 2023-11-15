@@ -14,13 +14,11 @@ export const StartNewChat: FC<Prop> = (props) => {
       </div>
       <Card className="col-span-3 flex flex-col gap-5 p-5">
         <Typography variant="h4" className="text-primary">
-          {AI_NAME}
+         Welcome to {AI_NAME}
         </Typography>
         <div className="flex flex-col gap-2">
           <p className="">
-            Welcome to {AI_NAME}. <br />
             En utilisant ChatGPT MH, veuillez prendre en compte les points suivants :<br />
-
             Usage Professionnel Seulement : ChatGPT MH est mis à disposition pour des besoins professionnels et ne doit pas être utilisé à des fins personnelles.<br />
             Exactitude des Informations : Les réponses fournies par ChatGPT MH peuvent comporter des erreurs. Bien qu'utile, cet outil ne doit pas être la seule source de décision ou d'information.<br />
 Base de Connaissances : Les réponses de ChatGPT MH sont basées sur des données accumulées jusqu'en 2021. Il est donc possible qu'il ne dispose pas d'informations actualisées après cette date.<br />
