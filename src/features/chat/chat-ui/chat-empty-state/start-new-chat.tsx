@@ -8,7 +8,7 @@ interface Prop {}
 
 export const StartNewChat: FC<Prop> = (props) => {
   return (
-    <div className="grid grid-cols-5 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-5">
+    <div className="grid grid-cols-5 w-full items-center container max-w-3xl h-full gap-5">
       <div className="col-span-2 gap-5 flex flex-col flex-1">
         <img src="/ai-icon.png" className="w-36" />
       </div>
