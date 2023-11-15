@@ -17,7 +17,7 @@ export const StartNewChat: FC<Prop> = (props) => {
           {AI_NAME}
         </Typography>
         <div className="flex flex-col gap-2">
-          <p class="overflow-auto">
+          <p className="overflow-auto">
             Welcome to {AI_NAME}. <br />
             En utilisant ChatGPT MH, veuillez prendre en compte les points suivants :<br />
 
